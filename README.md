@@ -6,19 +6,27 @@ It uses the [JaffarPlus](https://github.com/SergioMartin86/jaffarPlus) infrastru
 
 # Requirements
 
+```
 libtbb
 ncurses
 openmp
+meson
+ninja
+```
 
 # Build
 
+```
 git clone https://github.com/SergioMartin86/LunarBot.git --recursive
 mkdir build
 cd build
 meson .. 
 ninja
+```
 
 # Usage
 
+```
 cd examples/nes/lunarBall
 ../../../build/lunarBot script.jaffar
+```
