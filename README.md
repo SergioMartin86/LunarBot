@@ -1,6 +1,24 @@
+# LunarBot
 
-[![Build and Run Tests](https://github.com/SergioMartin86/TASProjects/actions/workflows/make.yml/badge.svg)](https://github.com/SergioMartin86/TASProjects/actions/workflows/make.yml)
+A bespoke TASing bot for the NES Lunar Ball / Lunar Pool game.
 
-# TASProjects
+It uses the [JaffarPlus](https://github.com/SergioMartin86/jaffarPlus) infrastructure.
 
-This is the private repository of TAS projects by eien86. If you have access to this, it means I made it public.
+# Requirements
+
+libtbb
+ncurses
+openmp
+
+# Build
+
+git clone https://github.com/SergioMartin86/LunarBot.git --recursive
+mkdir build
+cd build
+meson .. 
+ninja
+
+# Usage
+
+cd examples/nes/lunarBall
+../../../build/lunarBot script.jaffar
