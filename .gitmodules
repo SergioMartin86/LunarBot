@@ -1,0 +1,3 @@
+[submodule "extern/jaffarPlus"]
+	path = extern/jaffarPlus
+	url = https://github.com/SergioMartin86/jaffarPlus.git
